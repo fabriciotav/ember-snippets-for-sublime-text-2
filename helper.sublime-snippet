@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+Ember.Handlebars.registerBoundHelper('${1:helperName}', function(${2:value}) {
+    
+    return ${3:value};
+});
+
+]]></content>
+    <description>Ember.Handlebars.registerBoundHelper()</description>
+    <tabTrigger>helper</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

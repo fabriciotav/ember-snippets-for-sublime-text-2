@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:App}.${2:Mixin} = Ember.Mixin.create({
+    ${3}
+});
+
+]]></content>
+    <description>Ember.Mixin.create()</description>
+    <tabTrigger>mixin</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

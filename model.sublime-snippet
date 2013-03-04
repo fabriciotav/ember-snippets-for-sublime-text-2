@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:App}.${2:Model} = DS.Model.extend({
+    ${3:attr}: DS.attr('string')
+});
+
+]]></content>
+    <description>DS.Model.extend()</description>
+    <tabTrigger>model</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

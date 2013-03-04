@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+window.${1:App} = Ember.Application.create({
+    VERSION: '0.1.0',
+
+    LOG_TRANSITIONS: true,
+    
+    rootElement: '#body',
+
+    ready: function() {
+        ${2}
+    }
+});
+
+]]></content>
+    <description>Ember.Application.create()</description>
+    <tabTrigger>app</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

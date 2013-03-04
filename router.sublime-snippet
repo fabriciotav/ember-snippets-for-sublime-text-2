@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:App}.Router.map(function() {
+    this.resource('${2:home}');
+});
+
+App.Router.reopen({
+    // location: 'none'
+});
+
+]]></content>
+    <description>App.Router.map()</description>
+    <tabTrigger>router</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
