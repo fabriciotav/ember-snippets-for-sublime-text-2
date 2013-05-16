@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
 ${1:App}.Router.map(function() {
-    this.resource('${2:home}');
+  this.resource('${2:home}');
 });
 
 App.Router.reopen({
-    // location: 'none'
+  // location: 'none'
 });
 
 ]]></content>

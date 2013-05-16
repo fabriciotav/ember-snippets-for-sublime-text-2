@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2:Object} = Ember.Object.extend({
-    init: function() {
-        // Setup
-    },
+${1:App}.${2:Object} = Em.Object.extend({
+  init: function() {
+    // Setup
+  },
 
-    ${3:method}: function(${4:value}) {
-        ${5}
-    }
+  ${3:method}: function(${4:value}) {
+    ${5}
+  }
 });
 
 ]]></content>

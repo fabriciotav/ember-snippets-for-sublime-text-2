@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2:Array}Controller = Ember.${3:Array}Controller.extend({
-    // needs: [],
+${1:App}.${2}Controller = Em.${3:Array}Controller.extend({
+  // needs: [],
 });
 
 ]]></content>

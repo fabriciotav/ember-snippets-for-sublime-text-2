@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2:This}View = Ember.View.extend({
-    tagName: 'div',
-    
-    didInsertElement: function() {
-        ${3}
-    }
+${1:App}.${2:This}View = Em.View.extend({
+  tagName: 'div',
+  // classNames: [],
+  didInsertElement: function() {
+    ${3}
+  }
 });
 
 ]]></content>

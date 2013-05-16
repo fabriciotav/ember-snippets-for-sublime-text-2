@@ -1,15 +1,15 @@
 <snippet>
     <content><![CDATA[
-window.${1:App} = Ember.Application.create({
-    VERSION: '0.1.0',
+window.${1:App} = Em.Application.create({
+  VERSION: '0.0.1',
 
-    LOG_TRANSITIONS: true,
+  LOG_TRANSITIONS: true,
     
-    rootElement: '#body',
+  rootElement: '#body',
 
-    ready: function() {
-        ${2}
-    }
+  ready: function() {
+    ${2}
+  }
 });
 
 ]]></content>

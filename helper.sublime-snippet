@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-Ember.Handlebars.registerBoundHelper('${1:helperName}', function(${2:value}) {
+Em.Handlebars.registerBoundHelper('${1:helperName}', function(${2:value}) {
     
-    return ${3:value};
+  return ${3:value};
 });
 
 ]]></content>

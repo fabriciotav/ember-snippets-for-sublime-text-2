@@ -3,18 +3,18 @@
 App.Adapter = DS.RESTAdapter.extend();
 
 App.RESTSerializer = DS.RESTSerializer.extend({
-    init: function() {
-        this._super();
+  init: function() {
+    this._super();
 
-    }
+  }
 });
 
 App.Store = DS.Store.extend({
-    revision: 11,
-    adapter: App.Adapter.create({
-        namespace: 'api',
-        serializer: App.RESTSerializer
-    })
+  revision: 12,
+  adapter: App.Adapter.create({
+    namespace: 'api',
+    serializer: App.RESTSerializer
+  })
 });
 
 ]]></content>

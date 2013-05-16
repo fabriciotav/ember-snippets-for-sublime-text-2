@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2:This}Route = Ember.Route.extend({
-    // activate: function() {},
-    // deactivate: function() {},
-    // setupController: function(controller, model) {},
-    // renderTemplate: function() {},
+${1:App}.${2:This}Route = Em.Route.extend({
+  // activate: function() {},
+  // deactivate: function() {},
+  // setupController: function(controller, model) {},
+  // renderTemplate: function() {},
 
-    model: function() {
-        return ${3};
-    }
+  model: function() {
+      return ${3};
+  }
 });
 
 ]]></content>
