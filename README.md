@@ -32,9 +32,9 @@ Ember.js snippets for Sublime Text 2
 
 If you don't want to be annoyed by JavaScript syntax when using type="text/x-handlebars" with Sublime Text 2, just edit the HTML.tmLanguage file, replacing:
 
-  <string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;)</string>
+  `<string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;)</string>`
 
 with:
 
-  <string>(?:^\s+)?(&lt;)((?i:script))\b(?!([^&gt;]*text/x-handlebars[^&gt;]*|[^&gt;]*/>))</string>
+  `<string>(?:^\s+)?(&lt;)((?i:script))\b(?!([^&gt;]*text/x-handlebars[^&gt;]*|[^&gt;]*/>))</string>`
 
