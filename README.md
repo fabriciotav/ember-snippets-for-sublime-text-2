@@ -14,10 +14,6 @@ Ember.js snippets for Sublime Text 2
 - store ⇥
 - view ⇥
 
-## Handlebars script tag
-
-- hbs ⇥
-
 ## Handlebars helpers
 
 - action ⇥
@@ -29,3 +25,16 @@ Ember.js snippets for Sublime Text 2
 - partial ⇥
 - unless ⇥
 - viewb ⇥
+
+## Handlebars script tag
+
+- hbs ⇥
+
+If you don't want to be annoyed by JavaScript syntax when using type="text/x-handlebars" with Sublime Text 2, just edit the HTML.tmLanguage file, replacing:
+
+  <string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;)</string>
+
+with:
+
+  <string>(?:^\s+)?(&lt;)((?i:script))\b(?!([^&gt;]*text/x-handlebars[^&gt;]*|[^&gt;]*/>))</string>
+
