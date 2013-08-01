@@ -5,6 +5,8 @@ ${1:App}.${2:This}Route = Em.Route.extend
   # deactivate: ->
   # setupController: (controller, model)->
   # renderTemplate: ->
+  # beforeModel: ->
+  # afterModel: ->
 
   model: ->
     return ${3}
