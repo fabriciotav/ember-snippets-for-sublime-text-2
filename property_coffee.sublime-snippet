@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:attr}: (->
+  ${2:anotherAttribute} = @get('${2}') 
+  ${3}
+).property('${2:anotherAttribute}')
+
+]]></content>
+    <description>Ember.ComputedProperty</description>
+    <tabTrigger>emberProperty</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>

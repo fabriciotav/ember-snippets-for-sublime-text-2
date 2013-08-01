@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:method}: (->
+  ${2:anotherAttribute} = @get('${2}') 
+  ${3}
+).observes('${2:anotherAttribute}')
+
+]]></content>
+    <description>Ember.Observable</description>
+    <tabTrigger>emberObserver</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>

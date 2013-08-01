@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:method}: function() {
+  var ${2:anotherAttribute} = this.get('${2}');
+  ${3}
+}.observes('${2}')
+
+]]></content>
+    <description>Ember.Observable</description>
+    <tabTrigger>emberObserver</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
