@@ -5,7 +5,9 @@ ${1:App}.${2:This}Route = Em.Route.extend({
   // deactivate: function() {},
   // setupController: function(controller, model) {},
   // renderTemplate: function() {},
-
+  // beforeModel: function() {},
+  // afterModel: function() {},
+  
   model: function() {
       return ${3};
   }
