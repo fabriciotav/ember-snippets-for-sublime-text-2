@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:App}.${2:Object} = Em.Object.extend
+  init: ->
+    # Setup
+
+  ${3:method}: (${4:value})->
+    ${5}
+
+]]></content>
+    <description>Ember.Object.extend()</description>
+    <tabTrigger>object</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>
