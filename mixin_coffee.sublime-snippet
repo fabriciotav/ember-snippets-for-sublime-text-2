@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:App}.${2:Mixin} = Ember.Mixin.create
+${1:App}.${2:Mixin} = Em.Mixin.create
   ${3}
 
 ]]></content>
