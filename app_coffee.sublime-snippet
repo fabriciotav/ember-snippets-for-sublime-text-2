@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+window.${1:App} = Em.Application.create
+  VERSION: '0.0.1'
+
+  LOG_TRANSITIONS: true
+    
+  rootElement: '#body'
+
+  ready: ->
+    ${2}
+
+]]></content>
+    <description>Ember.Application.create()</description>
+    <tabTrigger>app</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>

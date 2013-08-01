@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+Em.Handlebars.registerBoundHelper '${1:helperName}', (${2:value})->
+    
+  ${3:value}
+
+]]></content>
+    <description>Ember.Handlebars.registerBoundHelper()</description>
+    <tabTrigger>helper</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>

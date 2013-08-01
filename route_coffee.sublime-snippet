@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:App}.${2:This}Route = Em.Route.extend
+  # activate: ->
+  # deactivate: ->
+  # setupController: (controller, model)->
+  # renderTemplate: ->
+
+  model: ->
+    return ${3}
+
+]]></content>
+    <description>Ember.Route.extend()</description>
+    <tabTrigger>route</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+App.Adapter = DS.RESTAdapter.extend()
+
+App.RESTSerializer = DS.RESTSerializer.extend
+  init: ->
+    @_super()
+
+App.Store = DS.Store.extend
+  revision: 12
+  adapter: App.Adapter.create
+    namespace: 'api'
+    serializer: App.RESTSerializer
+
+]]></content>
+    <description>DS.Store.extend()</description>
+    <tabTrigger>store</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>
