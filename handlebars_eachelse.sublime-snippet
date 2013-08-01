@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+{{#each ${1:item} in ${2:model}}}
+  ${3}
+{{else}}
+  ${4}
+{{/each}}
+]]></content>
+  <description>{{#each }} {{else}} {{/each}}</description>
+  <tabTrigger>eachelse</tabTrigger>
+</snippet>

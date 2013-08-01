@@ -1,15 +1,31 @@
 Ember.js snippets for Sublime Text 2
 ====================================
 
-Snippets tab triggers:
+## Ember.js
 
-- app
-- controller
-- helper
-- mixin
-- model
-- object
-- route
-- router
-- store
-- view
+- app ⇥
+- controller ⇥
+- helper ⇥
+- mixin ⇥
+- model ⇥
+- object ⇥
+- route ⇥
+- router ⇥
+- store ⇥
+- view ⇥
+
+## Handlebars script tag
+
+- hbs ⇥
+
+## Handlebars helpers
+
+- action ⇥
+- each ⇥
+- eachelse ⇥
+- if ⇥
+- ifelse ⇥
+- linkto ⇥
+- partial ⇥
+- unless ⇥
+- viewb ⇥

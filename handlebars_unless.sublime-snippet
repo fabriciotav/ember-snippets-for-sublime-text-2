@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+{{#unless ${1:property}}}
+  ${2}
+{{/unless}}
+]]></content>
+  <description>{{#unless }} {{unless}}</description>
+  <tabTrigger>unless</tabTrigger>
+</snippet>

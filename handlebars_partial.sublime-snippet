@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+{{partial ${1}}}
+]]></content>
+  <description>{{partial }}</description>
+  <tabTrigger>partial</tabTrigger>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+{{#if ${1:property}}}
+  ${2}
+{{/if}}
+]]></content>
+  <description>{{#if }} {{/if}}</description>
+  <tabTrigger>if</tabTrigger>
+</snippet>

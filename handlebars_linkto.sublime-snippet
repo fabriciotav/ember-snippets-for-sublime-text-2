@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+{{#linkTo '${1:route}'}}${2:text}{{/linkTo}}
+]]></content>
+  <description>{{#linkTo }} {{/linkTo}}</description>
+  <tabTrigger>linkto</tabTrigger>
+</snippet>

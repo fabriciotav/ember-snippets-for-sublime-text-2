@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+{{action "${1}"}}
+]]></content>
+  <description>{{action }}</description>
+  <tabTrigger>action</tabTrigger>
+</snippet>

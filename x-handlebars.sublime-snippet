@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<script type="text/x-handlebars" data-template-name="${1}">
+  ${2}
+</script>
+]]></content>
+  <description>text/x-handlebars script tag</description>
+  <tabTrigger>hbs</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
