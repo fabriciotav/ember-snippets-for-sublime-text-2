@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+${1:App}.${2:This}View = Em.View.extend
+  tagName: 'div'
+  classNames: []
+  didInsertElement: ->
+    ${3}
+
+]]></content>
+    <description>Ember.View.extend()</description>
+    <tabTrigger>view</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:App}.${2:Model} = DS.Model.extend
+  ${3:attr}: DS.attr('${4:string}')
+
+]]></content>
+    <description>DS.Model.extend()</description>
+    <tabTrigger>model</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>
