@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${1:App}.${2:This}Component = Em.Component.extend({
   tagName: 'div',
-  // classNames: [],
+  classNames: [],
   // ${3:didInsertElement}: function() {
   //  ${4}
-  // }.on('didInsertElement')
+  // }.on('${5:didInsertElement}')
 });
 
 ]]></content>
