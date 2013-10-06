@@ -3,9 +3,9 @@
 ${1:App}.${2:This}Component = Em.Component.extend
   tagName: 'div'
   classNames: []
-  didInsertElement: (->
-    ${3}
-  ).on('${4:didInsertElement}')
+  # ${3:didInsertElement}: (->
+  #   ${4}
+  # ).on('${5:didInsertElement}')
 
 ]]></content>
     <description>Ember.Component.extend()</description>
