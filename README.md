@@ -4,6 +4,7 @@ Ember.js snippets for Sublime Text 2
 ## Ember.js
 
 - app ⇥
+- component ⇥
 - controller ⇥
 - helper ⇥
 - mixin ⇥
