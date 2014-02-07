@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:App}.${2:This}Component = Em.Component.extend({
+  tagName: 'div',
+  classNames: [],
+  // ${3:didInsertElement}: function() {
+  //  ${4}
+  // }.on('${5:didInsertElement}')
+});
+
+]]></content>
+    <description>Ember.Component.extend()</description>
+    <tabTrigger>component</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

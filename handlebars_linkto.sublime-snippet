@@ -1,7 +1,13 @@
 <snippet>
   <content><![CDATA[
+<<<<<<< HEAD
 {{#link-to '${1:route}'}}${2:text}{{/link-to}}
 ]]></content>
   <description>{{#link-to }} {{/link-to}}</description>
+=======
+{{#link-to '${1:route}' ${2:model}}}${3:text}{{/link-to}}
+]]></content>
+  <description>{{#link-to}} {{/link-to}}</description>
+>>>>>>> 4c3438ef3774f4d8925ba10f9f4dabc328c90198
   <tabTrigger>linkto</tabTrigger>
 </snippet>
