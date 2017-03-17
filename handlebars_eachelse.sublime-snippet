@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-{{#each ${1:item} in ${2:model}}}
+{{#each ${1:item} as |${2:model}|}}
   ${3}
 {{else}}
   ${4}
